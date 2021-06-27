@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Made - News</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
+</head>
+<body onload="preview();">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-light navbar-custom">
+        <div class="container"><a class="navbar-brand" href="index.html" style="background: url('pict') left top /38px no-repeat ;font-family: Acme, sans-serif;font-size: 27px;">&nbsp; &nbsp; &nbsp; &nbsp;Made News</a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Berita
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" onclick="hasilgenre('games_news ')">Games News</a></li>
+                          <li><a class="dropdown-item" onclick="hasilgenre('game_review')">Game Review</a></li>
+                          <li><a class="dropdown-item" onclick="hasilgenre('pc_games')">Pc Games</a></li>
+                        </ul>
+                      </div>
+                      &nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center text-white masthead">
+        <div class="masthead-content">
+            <div class="container">
+                <h1 class="masthead-heading mb-0">Selamat Datang</h1>
+                <h2 class="masthead-subheading mb-0">Cari Berita</h2>
+                <br>
+                <div class="container-fluid">
+                    <form class="d-flex">
+                      <input class="form-control me-2" id="input"type="search" placeholder="masukan judul" aria-label="Search">
+                      <button type="button" class="btn btn-warning"id="tombol">Cari</button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <form class="box">
+            <br>    
+            <h2 style="font-family:verdana" id='genrenya' class=text-center>Daftar Berita</h2>
+            <hr>
+               <div class="container"> 
+                 <div id="home" class="row"> 
+                 </div>
+               </div>
+           </form>
+           <hr>
+    </section>
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <h3 class="text-center text-white m-0 medium">Universita Ma Chung</h3>
+            <p class="text-center text-white m-0 medium">Oleh : I Made Puthu W</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src=tes.js></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
